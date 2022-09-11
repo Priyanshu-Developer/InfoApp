@@ -68,8 +68,6 @@ public class MainActivity extends AppCompatActivity {
                 gender2.setText(rb.getText().toString());
             }
         });
-
-
     }
     private void showDate(int y,int m ,int d){
         dob.setText(y+"/"+(m+1)+"/"+d);
@@ -82,7 +80,6 @@ public class MainActivity extends AppCompatActivity {
         }
         return null;
     }
-
     private DatePickerDialog.OnDateSetListener myDateListener = new
             DatePickerDialog.OnDateSetListener() {
                 @Override
@@ -91,7 +88,4 @@ public class MainActivity extends AppCompatActivity {
                     showDate(arg1, arg2, arg3);
                 }
             };
-
-
-
 }
